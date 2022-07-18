@@ -7,7 +7,7 @@ constructor(){
 
 //creación de spiderman
     makespiderman(){
-    spider=createSprite(3000, 400)
+    spider=createSprite(200, 400)
     spider.addAnimation("correr", spiderImg);
     spider.addAnimation("saltar", spidersalto)
     spider.addAnimation("quieto", spiderquieto)
